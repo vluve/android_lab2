@@ -1,3 +1,163 @@
 <resources>
     <string name="app_name">MMOGames</string>
+
+    <string-array name="mmo_games_titles">
+        <item>World of Warcraft</item>
+        <item>Black Desert</item>
+        <item>Guild Wars 2</item>
+        <item>Final Fantasy XIV</item>
+        <item>Blade &amp; Soul</item>
+        <item>Star Wars: The Old Republic</item>
+        <item>The Elder Scrolls Online</item>
+        <item>RuneScape</item>
+        <item>Lost Ark</item>
+        <item>World of WarCraft: Classic</item>
+        <item>EVE Online</item>
+        <item>The Lord Of The Rings Online</item>
+        <item>Moonlight Blade</item>
+        <item>Justice Online</item>
+        <item>RIFT</item>
+        <item>Temtem</item>
+        <item>Dark Shiny</item>
+        <item>World of Warcraft: BCC</item>
+        <item>Lineage 2</item>
+        <item>Neverwinter</item>
+        <item>Trove</item>
+        <item>Global Agenda</item>
+        <item>Secret World</item>
+        <item>Age of Wushu</item>
+        <item>Bitcraft</item>
+        <item>Old School RuneScape</item>
+        <item>EverQuest 2</item>
+        <item>Wizard101</item>
+        <item>World of Warcraft: WotLKC</item>
+        <item>New World</item>
+        <item>Age of Conan: Unchained</item>
+        <item>Phantasy Star Online 2 New Gen</item>
+        <item>Anarchy Online</item>
+        <item>Crowfall</item>
+        <item>Allods Online</item>
+        <item>AdventureQuest 3D</item>
+        <item>EverQuest</item>
+        <item>Vindictus</item>
+        <item>Astellia</item>
+        <item>Ragnarok Online</item>
+        <item>DC Universe Online</item>
+        <item>Albion Online</item>
+        <item>MapleStory 2</item>
+        <item>Phantasy Star Online 2</item>
+        <item>ArcheAge</item>
+        <item>Secret World Legends</item>
+        <item>Swords of Legends Online</item>
+        <item>Darkfall: Rise of Agon</item>
+        <item>WAKFU</item>
+        <item>Ultima Online</item>
+    </string-array>
+
+    <string-array name="mmo_games_dates">
+        <item>23.11.2004</item>
+        <item>22.11.2018</item>
+        <item>15.08.2012</item>
+        <item>21.08.2013</item>
+        <item>13.05.2016</item>
+        <item>17.12.2011</item>
+        <item>04.04.2014</item>
+        <item>04.01.2001</item>
+        <item>27.10.2019</item>
+        <item>27.08.2019</item>
+        <item>28.05.2003</item>
+        <item>26.09.2008</item>
+        <item>25.01.2018</item>
+        <item>29.06.2018</item>
+        <item>25.02.2011</item>
+        <item>06.09.2022</item>
+        <item>09.09.2014</item>
+        <item>02.06.2021</item>
+        <item>25.09.2003</item>
+        <item>20.06.2013</item>
+        <item>09.07.2015</item>
+        <item>14.06.2011</item>
+        <item>27.05.2012</item>
+        <item>01.01.2015</item>
+        <item>~ .2022</item>
+        <item>22.02.2013</item>
+        <item>30.03.2016</item>
+        <item>03.03.2009</item>
+        <item>26.09.2022</item>
+        <item>28.09.2021</item>
+        <item>08.05.2008</item>
+        <item>09.06.2021</item>
+        <item>25.06.2001</item>
+        <item>28.07.2021</item>
+        <item>15.10.2010</item>
+        <item>28.10.2022</item>
+        <item>27.02.1999</item>
+        <item>13.10.2010</item>
+        <item>09.03.2020</item>
+        <item>15.08.2018</item>
+        <item>30.12.2010</item>
+        <item>17.07.2017</item>
+        <item>27.05.2020</item>
+        <item>05.08.2020</item>
+        <item>16.02.2014</item>
+        <item>26.06.2017</item>
+        <item>03.03.2022</item>
+        <item>05.05.2017</item>
+        <item>24.04.2011</item>
+        <item>24.09.1997</item>
+    </string-array>
+
+    <string-array name="mmo_games_ratings">
+        <item>8.9</item>
+        <item>8.7</item>
+        <item>8.7</item>
+        <item>8.6</item>
+        <item>8.5</item>
+        <item>8.3</item>
+        <item>8.3</item>
+        <item>8.2</item>
+        <item>8.2</item>
+        <item>8.2</item>
+        <item>8.2</item>
+        <item>8.1</item>
+        <item>7.9</item>
+        <item>7.9</item>
+        <item>7.8</item>
+        <item>7.8</item>
+        <item>7.8</item>
+        <item>7.8</item>
+        <item>7.7</item>
+        <item>7.7</item>
+        <item>7.7</item>
+        <item>7.7</item>
+        <item>7.6</item>
+        <item>7.6</item>
+        <item>7.6</item>
+        <item>7.6</item>
+        <item>7.5</item>
+        <item>7.5</item>
+        <item>7.5</item>
+        <item>7.5</item>
+        <item>7.5</item>
+        <item>7.5</item>
+        <item>7.4</item>
+        <item>7.4</item>
+        <item>7.4</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.3</item>
+        <item>7.2</item>
+        <item>7.2</item>
+        <item>7.2</item>
+        <item>7.2</item>
+    </string-array>
+
 </resources>
