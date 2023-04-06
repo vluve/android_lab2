@@ -3,12 +3,12 @@ package com.vluve.mmogames;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
+import android.util.Log;
 import android.os.Bundle;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements GamePreview_RecyclerViewInterface{
 
     ArrayList<GamePreviewModel> gamePreviewModels = new ArrayList<>();
 
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         RecyclerView recyclerView = findViewById(R.id.mmoRecyclerView);
         setupGamePreviewModels();
-        GamePreview_RecyclerViewAdapter adapter = new GamePreview_RecyclerViewAdapter(this, gamePreviewModels);
+        GamePreview_RecyclerViewAdapter adapter = new GamePreview_RecyclerViewAdapter(this, this, gamePreviewModels);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
@@ -40,5 +40,10 @@ public class MainActivity extends AppCompatActivity {
 
         for (int i = 0; i < gameTitles.length; i++)
             gamePreviewModels.add(new GamePreviewModel(gameTitles[i], releaseDates[i], ratings[i], gamePreviewImages[i]));
+    }
+
+    @Override
+    public void onItemClick(int position) {
+        Log.w("DEBUG:", Integer.toString(position));
     }
 }
