@@ -160,4 +160,269 @@
         <item>7.2</item>
     </string-array>
 
+    <string-array name="mmo_games_developers">
+        <item>Blizzard</item>
+        <item>Pearl Abyss</item>
+        <item>ArenaNet®</item>
+        <item>Square Enix</item>
+        <item>NCSOFT</item>
+        <item>BioWare</item>
+        <item>ZeniMax Online Studios</item>
+        <item>Jagex Ltd</item>
+        <item>Smilegate Tripod</item>
+        <item>Blizzard Entertainment</item>
+        <item>CCP</item>
+        <item>The Lord Of The Rings Online</item>
+        <item>Moonlight Blade</item>
+        <item>Justice Online</item>
+        <item>RIFT</item>
+        <item>Temtem</item>
+        <item>Dark Shiny</item>
+        <item>World of Warcraft: BCC</item>
+        <item>Lineage 2</item>
+        <item>Neverwinter</item>
+        <item>Trove</item>
+        <item>Global Agenda</item>
+        <item>Secret World</item>
+        <item>Age of Wushu</item>
+        <item>Bitcraft</item>
+        <item>Old School RuneScape</item>
+        <item>EverQuest 2</item>
+        <item>Wizard101</item>
+        <item>World of Warcraft: WotLKC</item>
+        <item>New World</item>
+        <item>Age of Conan: Unchained</item>
+        <item>Phantasy Star Online 2 New Gen</item>
+        <item>Anarchy Online</item>
+        <item>Crowfall</item>
+        <item>Allods Online</item>
+        <item>AdventureQuest 3D</item>
+        <item>EverQuest</item>
+        <item>Vindictus</item>
+        <item>Astellia</item>
+        <item>Ragnarok Online</item>
+        <item>DC Universe Online</item>
+        <item>Albion Online</item>
+        <item>MapleStory 2</item>
+        <item>Phantasy Star Online 2</item>
+        <item>ArcheAge</item>
+        <item>Secret World Legends</item>
+        <item>Swords of Legends Online</item>
+        <item>Darkfall: Rise of Agon</item>
+        <item>WAKFU</item>
+        <item>Ultima Online</item>
+    </string-array>
+
+    <string-array name="mmo_games_publishers">
+        <item>World of Warcraft</item>
+        <item>Black Desert</item>
+        <item>Guild Wars 2</item>
+        <item>Final Fantasy XIV</item>
+        <item>Blade &amp; Soul</item>
+        <item>Star Wars: The Old Republic</item>
+        <item>The Elder Scrolls Online</item>
+        <item>RuneScape</item>
+        <item>Lost Ark</item>
+        <item>World of WarCraft: Classic</item>
+        <item>EVE Online</item>
+        <item>The Lord Of The Rings Online</item>
+        <item>Moonlight Blade</item>
+        <item>Justice Online</item>
+        <item>RIFT</item>
+        <item>Temtem</item>
+        <item>Dark Shiny</item>
+        <item>World of Warcraft: BCC</item>
+        <item>Lineage 2</item>
+        <item>Neverwinter</item>
+        <item>Trove</item>
+        <item>Global Agenda</item>
+        <item>Secret World</item>
+        <item>Age of Wushu</item>
+        <item>Bitcraft</item>
+        <item>Old School RuneScape</item>
+        <item>EverQuest 2</item>
+        <item>Wizard101</item>
+        <item>World of Warcraft: WotLKC</item>
+        <item>New World</item>
+        <item>Age of Conan: Unchained</item>
+        <item>Phantasy Star Online 2 New Gen</item>
+        <item>Anarchy Online</item>
+        <item>Crowfall</item>
+        <item>Allods Online</item>
+        <item>AdventureQuest 3D</item>
+        <item>EverQuest</item>
+        <item>Vindictus</item>
+        <item>Astellia</item>
+        <item>Ragnarok Online</item>
+        <item>DC Universe Online</item>
+        <item>Albion Online</item>
+        <item>MapleStory 2</item>
+        <item>Phantasy Star Online 2</item>
+        <item>ArcheAge</item>
+        <item>Secret World Legends</item>
+        <item>Swords of Legends Online</item>
+        <item>Darkfall: Rise of Agon</item>
+        <item>WAKFU</item>
+        <item>Ultima Online</item>
+    </string-array>
+
+    <string-array name="mmo_games_platforms">
+        <item>World of Warcraft</item>
+        <item>Black Desert</item>
+        <item>Guild Wars 2</item>
+        <item>Final Fantasy XIV</item>
+        <item>Blade &amp; Soul</item>
+        <item>Star Wars: The Old Republic</item>
+        <item>The Elder Scrolls Online</item>
+        <item>RuneScape</item>
+        <item>Lost Ark</item>
+        <item>World of WarCraft: Classic</item>
+        <item>EVE Online</item>
+        <item>The Lord Of The Rings Online</item>
+        <item>Moonlight Blade</item>
+        <item>Justice Online</item>
+        <item>RIFT</item>
+        <item>Temtem</item>
+        <item>Dark Shiny</item>
+        <item>World of Warcraft: BCC</item>
+        <item>Lineage 2</item>
+        <item>Neverwinter</item>
+        <item>Trove</item>
+        <item>Global Agenda</item>
+        <item>Secret World</item>
+        <item>Age of Wushu</item>
+        <item>Bitcraft</item>
+        <item>Old School RuneScape</item>
+        <item>EverQuest 2</item>
+        <item>Wizard101</item>
+        <item>World of Warcraft: WotLKC</item>
+        <item>New World</item>
+        <item>Age of Conan: Unchained</item>
+        <item>Phantasy Star Online 2 New Gen</item>
+        <item>Anarchy Online</item>
+        <item>Crowfall</item>
+        <item>Allods Online</item>
+        <item>AdventureQuest 3D</item>
+        <item>EverQuest</item>
+        <item>Vindictus</item>
+        <item>Astellia</item>
+        <item>Ragnarok Online</item>
+        <item>DC Universe Online</item>
+        <item>Albion Online</item>
+        <item>MapleStory 2</item>
+        <item>Phantasy Star Online 2</item>
+        <item>ArcheAge</item>
+        <item>Secret World Legends</item>
+        <item>Swords of Legends Online</item>
+        <item>Darkfall: Rise of Agon</item>
+        <item>WAKFU</item>
+        <item>Ultima Online</item>
+    </string-array>
+
+    <string-array name="mmo_games_genres">
+        <item>World of Warcraft</item>
+        <item>Black Desert</item>
+        <item>Guild Wars 2</item>
+        <item>Final Fantasy XIV</item>
+        <item>Blade &amp; Soul</item>
+        <item>Star Wars: The Old Republic</item>
+        <item>The Elder Scrolls Online</item>
+        <item>RuneScape</item>
+        <item>Lost Ark</item>
+        <item>World of WarCraft: Classic</item>
+        <item>EVE Online</item>
+        <item>The Lord Of The Rings Online</item>
+        <item>Moonlight Blade</item>
+        <item>Justice Online</item>
+        <item>RIFT</item>
+        <item>Temtem</item>
+        <item>Dark Shiny</item>
+        <item>World of Warcraft: BCC</item>
+        <item>Lineage 2</item>
+        <item>Neverwinter</item>
+        <item>Trove</item>
+        <item>Global Agenda</item>
+        <item>Secret World</item>
+        <item>Age of Wushu</item>
+        <item>Bitcraft</item>
+        <item>Old School RuneScape</item>
+        <item>EverQuest 2</item>
+        <item>Wizard101</item>
+        <item>World of Warcraft: WotLKC</item>
+        <item>New World</item>
+        <item>Age of Conan: Unchained</item>
+        <item>Phantasy Star Online 2 New Gen</item>
+        <item>Anarchy Online</item>
+        <item>Crowfall</item>
+        <item>Allods Online</item>
+        <item>AdventureQuest 3D</item>
+        <item>EverQuest</item>
+        <item>Vindictus</item>
+        <item>Astellia</item>
+        <item>Ragnarok Online</item>
+        <item>DC Universe Online</item>
+        <item>Albion Online</item>
+        <item>MapleStory 2</item>
+        <item>Phantasy Star Online 2</item>
+        <item>ArcheAge</item>
+        <item>Secret World Legends</item>
+        <item>Swords of Legends Online</item>
+        <item>Darkfall: Rise of Agon</item>
+        <item>WAKFU</item>
+        <item>Ultima Online</item>
+    </string-array>
+
+    <string-array name="mmo_games_descs">
+        <item>World of Warcraft</item>
+        <item>Black Desert</item>
+        <item>Guild Wars 2</item>
+        <item>Final Fantasy XIV</item>
+        <item>Blade &amp; Soul</item>
+        <item>Star Wars: The Old Republic</item>
+        <item>The Elder Scrolls Online</item>
+        <item>RuneScape</item>
+        <item>Lost Ark</item>
+        <item>World of WarCraft: Classic</item>
+        <item>Многопользовательская ролевая игра «EVE online» пережила около двадцати официальных дополнений, отпочковала успешный онлайн-шутер на PlayStation 3 «DUST 514» и готовится к запуску еще двух спин-офф проектов для PC.</item>
+        <item>The Lord Of The Rings Online</item>
+        <item>Moonlight Blade</item>
+        <item>Justice Online</item>
+        <item>RIFT</item>
+        <item>Temtem</item>
+        <item>Dark Shiny</item>
+        <item>World of Warcraft: BCC</item>
+        <item>Lineage 2</item>
+        <item>Neverwinter</item>
+        <item>Trove</item>
+        <item>Global Agenda</item>
+        <item>Secret World</item>
+        <item>Age of Wushu</item>
+        <item>Bitcraft</item>
+        <item>Old School RuneScape</item>
+        <item>EverQuest 2</item>
+        <item>Wizard101</item>
+        <item>World of Warcraft: WotLKC</item>
+        <item>New World</item>
+        <item>Age of Conan: Unchained</item>
+        <item>Phantasy Star Online 2 New Gen</item>
+        <item>Anarchy Online</item>
+        <item>Crowfall</item>
+        <item>Allods Online</item>
+        <item>AdventureQuest 3D</item>
+        <item>EverQuest</item>
+        <item>Vindictus</item>
+        <item>Astellia</item>
+        <item>Ragnarok Online</item>
+        <item>DC Universe Online</item>
+        <item>Albion Online</item>
+        <item>MapleStory 2</item>
+        <item>Phantasy Star Online 2</item>
+        <item>ArcheAge</item>
+        <item>Secret World Legends</item>
+        <item>Swords of Legends Online</item>
+        <item>Darkfall: Rise of Agon</item>
+        <item>WAKFU</item>
+        <item>Ultima Online</item>
+    </string-array>
+
 </resources>

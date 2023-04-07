@@ -6,19 +6,11 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/itemCardViewStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        app:cardBackgroundColor="@color/custom_dark_blue"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="8dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="182dp" >
 
@@ -27,31 +19,19 @@
             android:layout_height="wrap_content">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginStart="8dp"
-                app:cardBackgroundColor="@color/custom_green"
-                app:cardCornerRadius="3dp"
-                app:cardElevation="8dp"
+                style="@style/itemRatingCardViewStyle"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
                     android:id="@+id/mmo_game_preview_rating_textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:layout_marginStart="4dp"
-                    android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:text="0.0"/>
+                    style="@style/itemRatingTextViewStyle"
+                     />
             </androidx.cardview.widget.CardView>
 
             <ImageView
                 android:id="@+id/mmo_game_preview_imageView"
-                android:layout_width="200dp"
-                android:layout_height="92dp"
+                style="@style/previewImageImageViewStyle"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -59,26 +39,18 @@
 
             <TextView
                 android:id="@+id/mmo_game_preview_title_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/previewTitleTextViewStyle"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginTop="15dp"
-                android:textColor="@color/custom_whitish"
-                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/mmo_game_preview_imageView"
-                app:layout_constraintTop_toTopOf="parent"
-                android:text="MMO Game Title" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
                 android:id="@+id/mmo_game_preview_date_textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/custom_whitish"
+                style="@style/previewDateTextViewStyle"
                 app:layout_constraintTop_toBottomOf="@+id/mmo_game_preview_title_textView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/mmo_game_preview_imageView"
-                app:layout_constraintBottom_toBottomOf="parent"
-                android:text="00.00.0000" />
+                app:layout_constraintBottom_toBottomOf="parent"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

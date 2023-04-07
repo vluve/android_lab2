@@ -6,4 +6,63 @@
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
 
+    <ImageView
+        android:id="@+id/game_details_title_image_imageView"
+        style="@style/headImageStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mmo1" />
+
+    <TextView
+        android:id="@+id/game_details_title_textView"
+        style="@style/titleStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_title_image_imageView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/game_details_date_textView"
+        style="@style/detailsStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_title_textView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/game_details_genre_textView"
+        style="@style/detailsStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_title_textView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/game_details_platforms_textView"
+        style="@style/detailsStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_genre_textView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/game_details_developer_textView"
+        style="@style/detailsStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_platforms_textView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/game_details_publisher_textView"
+        style="@style/detailsStyle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_developer_textView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/game_details_desc_textView"
+        style="@style/detailsStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_details_publisher_textView"
+        android:text="TextView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
