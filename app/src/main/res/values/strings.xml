@@ -214,17 +214,17 @@
     </string-array>
 
     <string-array name="mmo_games_publishers">
-        <item>World of Warcraft</item>
-        <item>Black Desert</item>
-        <item>Guild Wars 2</item>
-        <item>Final Fantasy XIV</item>
-        <item>Blade &amp; Soul</item>
-        <item>Star Wars: The Old Republic</item>
-        <item>The Elder Scrolls Online</item>
-        <item>RuneScape</item>
-        <item>Lost Ark</item>
-        <item>World of WarCraft: Classic</item>
-        <item>EVE Online</item>
+        <item>Blizzard</item>
+        <item>Pearl Abyss</item>
+        <item>NCSOFT</item>
+        <item>Square Enix</item>
+        <item>Innova</item>
+        <item>Electronic Arts</item>
+        <item>Bethesda Softworks</item>
+        <item>Jagex Ltd</item>
+        <item>Mail.ru</item>
+        <item>Blizzard</item>
+        <item>CCP</item>
         <item>The Lord Of The Rings Online</item>
         <item>Moonlight Blade</item>
         <item>Justice Online</item>
@@ -267,17 +267,17 @@
     </string-array>
 
     <string-array name="mmo_games_platforms">
-        <item>World of Warcraft</item>
-        <item>Black Desert</item>
-        <item>Guild Wars 2</item>
-        <item>Final Fantasy XIV</item>
-        <item>Blade &amp; Soul</item>
-        <item>Star Wars: The Old Republic</item>
-        <item>The Elder Scrolls Online</item>
-        <item>RuneScape</item>
-        <item>Lost Ark</item>
-        <item>World of WarCraft: Classic</item>
-        <item>EVE Online</item>
+        <item>PC</item>
+        <item>PC, Playstation 4, Xbox One</item>
+        <item>PC</item>
+        <item>PC, Playstation 4</item>
+        <item>PC</item>
+        <item>PC</item>
+        <item>PC, Playstation 4, Stadia, Xbox One</item>
+        <item>PC, Mobile, Browser</item>
+        <item>PC</item>
+        <item>PC</item>
+        <item>PC</item>
         <item>The Lord Of The Rings Online</item>
         <item>Moonlight Blade</item>
         <item>Justice Online</item>
@@ -320,17 +320,17 @@
     </string-array>
 
     <string-array name="mmo_games_genres">
-        <item>World of Warcraft</item>
-        <item>Black Desert</item>
-        <item>Guild Wars 2</item>
-        <item>Final Fantasy XIV</item>
-        <item>Blade &amp; Soul</item>
-        <item>Star Wars: The Old Republic</item>
-        <item>The Elder Scrolls Online</item>
-        <item>RuneScape</item>
-        <item>Lost Ark</item>
-        <item>World of WarCraft: Classic</item>
-        <item>EVE Online</item>
+        <item>MMORPG</item>
+        <item>MMORPG | Песочница | Экшен</item>
+        <item>MMORPG</item>
+        <item>MMORPG</item>
+        <item>MMORPG</item>
+        <item>MMORPG</item>
+        <item>MMORPG</item>
+        <item>MMORPG</item>
+        <item>MMORPG | Экшен</item>
+        <item>MMORPG</item>
+        <item>MMORPG | Песочница</item>
         <item>The Lord Of The Rings Online</item>
         <item>Moonlight Blade</item>
         <item>Justice Online</item>
@@ -373,16 +373,16 @@
     </string-array>
 
     <string-array name="mmo_games_descs">
-        <item>World of Warcraft</item>
-        <item>Black Desert</item>
-        <item>Guild Wars 2</item>
-        <item>Final Fantasy XIV</item>
-        <item>Blade &amp; Soul</item>
-        <item>Star Wars: The Old Republic</item>
-        <item>The Elder Scrolls Online</item>
-        <item>RuneScape</item>
-        <item>Lost Ark</item>
-        <item>World of WarCraft: Classic</item>
+        <item>World of Warcraft — это культовая MMORPG от компании Blizzard, релиз которой состоялся в далёком 2004 году. В России на это время пришелся пик популярности игровых клубов и компьютерных залов. Редакция MMO13.ru припоминает, как за восемьдесят рублей можно было провести за World of Warcraft всю ночь, а утром, пошатываясь, выйти, чтобы за день насобирать сумму, достаточную для нового захода.</item>
+        <item>Black Desert — это мморпг с элементами песочницы (сэндбокс). Здесь в живом развивающемся мире можно осаждать замки, покупать и обустраивать дома, заниматься различными видами торговли и производства. Боевка, основання на принципе non-target, смахивает на консольные игры в жанре Экшен.</item>
+        <item>GW2, как и многие другие современные ММОРПГ, отошла от классовой концепции "троицы" (танк, дд и лекарь) в пользу быстрой позиционной боевки, в которой любой класс может показать себя. Самих классов, к слову, тут девять. Примечательно, что классы в GW2 не привязаны к одному типу оружия. Более того, в зависимости от выбранного оружия меняется набор доступных навыков, что делает боевку более разнообразной и насыщенной.</item>
+        <item>Final Fantasy, бесспорно, относится к череде культовых игровых франшиз, однако четырнадцатую часть трудно назвать удачной из-за ее безликости и непонятности. Игра вышла в 2010 году и стала для издателя форменным провалом. Унылый геймплей в сочетании с отвратительным интерфейсом вызвал массовый отплыв подписчиков. И спустя всего несколько месяцев разработчики решили закрыть проект.</item>
+        <item>Blade and Soul (BNS, бнс) — игра, в которой качество графики это первое, что привлекает внимание игроков. И сегодня любой может лично проверить, насколько серьезно компания NCSOFT поработала над игрой. И эта проверка покажет: промо-ролик не обманывал, игра действительно удивительно красива. Движок Unreal Engine 3, на котором сделан Blade and Soul, может и не считается самым передовым среди видеоигр, но как основа для ММО он позволяет реализовать все, что необходимо.</item>
+        <item>«Star Wars: The Old Republic» — ММО-игра во Вселенной "Звездных Войн". Она была создана студией BioWare Corporation под патронажем Electronic Arts Inc, ответственными, среди прочего, за выход игр «Mass Effect» и «Dragon Age». Это новая игра может считаться духовным преемником «Star Wars: Knights of the Old Republic», хотя геймплей механики, применяющийся здесь, делает сиквел полноценной MMORPG.</item>
+        <item>Много лет поклонники серии The Elder Scrolls мечтали об онлайн версии своего любимого проекта, ведь проект с таким богатым лором, геймплеем и наработками сулил много интересного и вселял вполне обоснованные надежды. Последняя игра серии TES, Skyrim, приобрела такую популярность, что онлайн был желанным и для большей части игрового сообщества.</item>
+        <item>Раньше Runescape была одной из лучших игр в жанре MMORPG вместе с Lineage II и World of Warcraft. Этот проект был запущен в 2004 году и сразу сумел завоевать сердца фанатов жанра, о чем неоднократно писали на сайте ММО13. Игра отличается своей доступностью и простотой, так как из-за языка Java в нее можно играть просто на браузере при минимальном трафике. Еще одним преимуществом Runescape является разнообразный внутриигровой контент.</item>
+        <item>Lost Ark — это MMORPG с открытым миром, action боевкой и так называемой изометрической 2.5D (Quarter View) камерой. Игра создана студией Tripod, принадлежащей крупному издателю Smilegate (Crossfire). Масштаб разработки впечатляет — над игрой трудилось более 150 человек, что является внушительной цифрой по любым меркам. В груди Lost Ark бьется старый-добрый Unreal Engine 3, хорошо знакомый разработчикам и проверенный временем движок. </item>
+        <item>World of WarCraft: Classic — это отдельная версия World of WarCraft, призванная удовлетворить ностальгию фанатов и вернуть их в самое начало пути, в 2004 год. До момента, когда был открыт портал в Запределье, Артас стал нежитью и ушёл планировать захват мира в Ледяную корону, момента когда открыли земли панд и мир спасли от Катаклизма.</item>
         <item>Многопользовательская ролевая игра «EVE online» пережила около двадцати официальных дополнений, отпочковала успешный онлайн-шутер на PlayStation 3 «DUST 514» и готовится к запуску еще двух спин-офф проектов для PC.</item>
         <item>The Lord Of The Rings Online</item>
         <item>Moonlight Blade</item>
