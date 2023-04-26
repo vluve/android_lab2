@@ -7,6 +7,9 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+
 public class DetailActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +27,7 @@ public class DetailActivity extends AppCompatActivity {
         TextView desc_tv = findViewById(R.id.game_details_desc_textView);
 
         // получаем из интента дополнительную информацию
-        int image = getIntent().getIntExtra("GAME_IMAGE", 0);
+        String thumbnail = getIntent().getStringExtra("GAME_IMAGE");
         String title = getIntent().getStringExtra("GAME_TITLE");
         String date = getIntent().getStringExtra("GAME_DATE");
         String platforms = getIntent().getStringExtra("GAME_PLATFORMS");
@@ -34,7 +37,7 @@ public class DetailActivity extends AppCompatActivity {
         String desc = getIntent().getStringExtra("GAME_DESC");
 
         // обновляем тексты и картинку
-        title_iv.setImageResource(image);
+        Glide.with(this).load(thumbnail).diskCacheStrategy(DiskCacheStrategy.ALL).into(title_iv);
         title_tv.setText(title);
         date_tv.setText(date);
         platforms_tv.setText(platforms);

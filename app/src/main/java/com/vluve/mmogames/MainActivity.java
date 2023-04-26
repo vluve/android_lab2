@@ -6,12 +6,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.util.Log;
 import android.os.Bundle;
+import android.widget.Toast;
+
 import java.util.ArrayList;
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity implements GamePreview_RecyclerViewInterface{
 
     // массив моделек
     ArrayList<GamePreviewModel> gamePreviewModels = new ArrayList<>();
+    GamePreview_RecyclerViewAdapter adapter;
 
     // массив картинок
     int[] gamePreviewImages = {R.drawable.mmo1, R.drawable.mmo2, R.drawable.mmo3, R.drawable.mmo4, R.drawable.mmo5,
@@ -29,14 +37,16 @@ public class MainActivity extends AppCompatActivity implements GamePreview_Recyc
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         RecyclerView recyclerView = findViewById(R.id.mmoRecyclerView); // создаём переменную RecyclerView
-        setupGamePreviewModels(); // заполняем массивы моделек
+        //setupGamePreviewModels(); // заполняем массивы моделек
+        loadGameModels();
         // создаём адаптер и привязываем его к RecyclerView
-        GamePreview_RecyclerViewAdapter adapter = new GamePreview_RecyclerViewAdapter(this, this, gamePreviewModels);
+        adapter = new GamePreview_RecyclerViewAdapter(this, this, gamePreviewModels);
+        adapter.setGamePreviewModels(gamePreviewModels);
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 
-    private void setupGamePreviewModels(){
+   /* private void loadImages(){
         // получаем массивы из ресурсов
         String[] gameTitles = getResources().getStringArray(R.array.mmo_games_titles);
         String[] releaseDates = getResources().getStringArray(R.array.mmo_games_dates);
@@ -47,25 +57,42 @@ public class MainActivity extends AppCompatActivity implements GamePreview_Recyc
         String[] platforms = getResources().getStringArray(R.array.mmo_games_platforms);
         String[] descs = getResources().getStringArray(R.array.mmo_games_descs);
 
-        // заполняем массив моделек
+
         for (int i = 0; i < gameTitles.length; i++)
-            gamePreviewModels.add(new GamePreviewModel(gameTitles[i], releaseDates[i], ratings[i], genres[i],
-                    platforms[i], developers[i], publishers[i], descs[i], gamePreviewImages[i]));
-    }
+            URL url = new URL("http://uu.appsforall.ru/53aab66e8215e5.01627669.jpg");
+            Bitmap bitmap = BitmapFactory.decodeStream(url.openConnection().getInputStream());
+    } */
 
     @Override
     public void onItemClick(int position) {
         // заполняем интент дополнительной информацией и запускаем активность
         Log.w("DEBUG:", Integer.toString(position));
         Intent intent = new Intent(this, DetailActivity.class);
-        intent.putExtra("GAME_IMAGE", gamePreviewModels.get(position).getImage());
+        intent.putExtra("GAME_IMAGE", gamePreviewModels.get(position).getThumbnail());
         intent.putExtra("GAME_TITLE", gamePreviewModels.get(position).getTitle());
-        intent.putExtra("GAME_DATE", gamePreviewModels.get(position).getReleaseDate());
+        intent.putExtra("GAME_DATE", gamePreviewModels.get(position).getRelease_date());
         intent.putExtra("GAME_DEVELOPER", gamePreviewModels.get(position).getDeveloper());
         intent.putExtra("GAME_PUBLISHER", gamePreviewModels.get(position).getPublisher());
-        intent.putExtra("GAME_PLATFORMS", gamePreviewModels.get(position).getPlatforms());
+        intent.putExtra("GAME_PLATFORMS", gamePreviewModels.get(position).getPlatform());
         intent.putExtra("GAME_GENRE", gamePreviewModels.get(position).getGenre());
-        intent.putExtra("GAME_DESC", gamePreviewModels.get(position).getDesc());
+        intent.putExtra("GAME_DESC", gamePreviewModels.get(position).getShort_description());
         startActivity(intent);
+    }
+
+    private void loadGameModels() {
+        RetrofitManager.getRetrofit().getGames().enqueue(new Callback<List<GamePreviewModel>>() {
+            @Override
+            public void onResponse(Call<List<GamePreviewModel>> call, Response<List<GamePreviewModel>> response) {
+                if (response.isSuccessful() && response.body() != null) {
+                    gamePreviewModels.addAll(response.body());
+                    adapter.notifyDataSetChanged();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<List<GamePreviewModel>> call, Throwable t) {
+                Toast.makeText(MainActivity.this, "Error: " + t.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }

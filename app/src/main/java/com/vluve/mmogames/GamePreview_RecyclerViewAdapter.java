@@ -1,6 +1,7 @@
 package com.vluve.mmogames;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,12 +11,22 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+
 import java.util.ArrayList;
 
 public class GamePreview_RecyclerViewAdapter extends RecyclerView.Adapter<GamePreview_RecyclerViewAdapter.MyViewHolder>{
     private final GamePreview_RecyclerViewInterface recyclerViewInterface;
     Context context;
+
+    public void setGamePreviewModels(ArrayList<GamePreviewModel> gamePreviewModels) {
+        this.gamePreviewModels = gamePreviewModels;
+    }
+
     ArrayList<GamePreviewModel> gamePreviewModels;
+
+
 
     public GamePreview_RecyclerViewAdapter(GamePreview_RecyclerViewInterface recyclerViewInterface, Context context, ArrayList<GamePreviewModel> gamePreviewModels) {
         this.recyclerViewInterface = recyclerViewInterface;
@@ -27,6 +38,7 @@ public class GamePreview_RecyclerViewAdapter extends RecyclerView.Adapter<GamePr
     @Override
     public GamePreview_RecyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         // создаём элемент списка
+        Log.w("DEBUG:", "OnCreateViewHolder");
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.recycler_view_item, parent, false);
         return new GamePreview_RecyclerViewAdapter.MyViewHolder(view, recyclerViewInterface);
@@ -35,10 +47,11 @@ public class GamePreview_RecyclerViewAdapter extends RecyclerView.Adapter<GamePr
     @Override
     public void onBindViewHolder(@NonNull GamePreview_RecyclerViewAdapter.MyViewHolder holder, int position) {
         // обновляем текста и картинку
+        Log.w("DEBUG:", "OnBindViewHolder");
         holder.titleTextView.setText(gamePreviewModels.get(position).getTitle());
-        holder.dateTextView.setText(gamePreviewModels.get(position).getReleaseDate());
-        holder.ratingTextView.setText(gamePreviewModels.get(position).getRating());
-        holder.imageView.setImageResource(gamePreviewModels.get(position).getImage());
+        holder.dateTextView.setText(gamePreviewModels.get(position).getRelease_date());
+        holder.ratingTextView.setText("7.7");
+        Glide.with(context).load(gamePreviewModels.get(position).getThumbnail()).diskCacheStrategy(DiskCacheStrategy.ALL).into(holder.imageView);
     }
 
     @Override
